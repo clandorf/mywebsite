@@ -1,0 +1,154 @@
+a:hover{
+	text-decoration:underline;
+}
+
+
+#copyright{
+	float:left;
+}
+
+.topRow {
+	min-height: 100px;
+}
+
+.mainBlurb{
+	horizontal-align:center;
+	vertical-align: center;
+	margin:auto;
+	width:60%;
+}
+
+#centerBlob{
+	max-width: 50%;
+	margin:auto;
+	vertical-align: center;
+	text-align:center;
+	color:#99C;
+	}
+	#centerText{
+		position:relative;
+		top:50%;
+		transform:translateY(-50%);
+		}
+		#Name{
+		font-weight:bold;
+		font-family:verdana;
+		font-size:30px;
+		margin-top:200px;
+		margin-bottom:0px;
+		padding-bottom:0px;
+		}
+		#subHeader{
+			color:#777;
+			font-size:14px;
+		}
+		#subHeader span{
+				padding:0px 5px 0px 5px;
+				margin:0px;
+		}
+		.keyWord{
+			font-weight:bold;
+		}
+		.subWord{
+			font-weight:normal;
+			font-size:12px;
+			font-style:italic;
+		}
+			#catchPhrase{
+				margin-top:25px;
+				color:#C99;
+				font-style:italic;
+			}
+			.partOne{
+				float:center;
+			}
+			.partTwo{
+				position:relative;
+				left:20%;
+			}
+
+
+
+.nav-bar{
+	min-width:10%;
+	padding:0 0 0 20px;
+	color:white;
+}
+
+.nav-bar ul li a{
+	color:white;
+}
+
+#wrap{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,8daac4+9,c9d8f2+15,eaecf7+22,ffffff+87,e5e5e5+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #8daac4 9%, #c9d8f2 15%, #eaecf7 22%, #ffffff 87%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(9%,#8daac4), color-stop(15%,#c9d8f2), color-stop(22%,#eaecf7), color-stop(87%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#8daac4 9%,#c9d8f2 15%,#eaecf7 22%,#ffffff 87%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1e5799 0%,#8daac4 9%,#c9d8f2 15%,#eaecf7 22%,#ffffff 87%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1e5799 0%,#8daac4 9%,#c9d8f2 15%,#eaecf7 22%,#ffffff 87%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to right,  #1e5799 0%,#8daac4 9%,#c9d8f2 15%,#eaecf7 22%,#ffffff 87%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */
+
+}
+
+.verticalBarRight{
+	border-right: dotted 1px #111;
+}
+
+.white {
+	color:white;
+	}
+
+#footerBar{
+	text-align:center;
+}
+#footerNav{
+	margin:auto;
+	width:60%;
+	text-align:center;
+	position:relative;
+	left:-100px;
+	}
+	.footerNav a{
+	}
+	.footerSpan{
+		color:#222;
+		margin:10px;
+		padding:0px;
+	}
+
+
+/*StickyFooter*/
+/*  
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+* {margin:0;padding:0;} 
+
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+	padding-bottom: 80px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -80px; /* negative value of footer height */
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
